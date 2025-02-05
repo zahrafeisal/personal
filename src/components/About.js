@@ -1,7 +1,14 @@
 import React from "react";
 import NavBar from "./NavBar";
+import { useNavigate } from "react-router-dom";
 
 function About() {
+
+    const navigate = useNavigate();
+    const handleButtonClick = () => {
+        navigate("/home");
+    }
+
     return (
         <div className="about-div">
         <NavBar />
@@ -46,6 +53,13 @@ function About() {
             <br />
             laughter and love. Happy 19th birthday baby, I love you endlessly, always and forever❤️
         </h2>
+        <button
+              onClick={handleButtonClick}
+              type="button"
+              className="login-button btn btn-outline-info"
+            >
+                <span>Go back</span>
+            </button>
         </div>
     );
 }

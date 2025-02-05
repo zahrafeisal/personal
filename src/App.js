@@ -10,9 +10,9 @@ function App() {
     <div className='poppins-semibold'>
       <Router basename="/personal">
         <Routes>
-          <Route path="/" exact component={<Login />} />
-          <Route path="/home" component={<HomePage />} />
-          <Route path="/about" component={<About />} />
+          <Route path="/" element={<Login />} />
+          <Route path="/home" element={<HomePage />} />
+          <Route path="/about" element={<About />} />
         </Routes>
       </Router>
     </div>
