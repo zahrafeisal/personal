@@ -26,11 +26,11 @@ function HomePage() {
             <div className="home-content">
             <h2>Hi, Karl</h2>
             <h1>Happy Birthday!!!</h1>
-            <p>This is somehow my version of a paragraph and I wasn't
+            <p>This is somehow my version of a midnight birthday paragraph and
                 <br />
-                so sure about it at first but I really hope you like it.
+                I wasn't so sure about it at first but I really hope you like it.
                 <br />
-                I wanted to do something out of the ordinary :)
+                Ik it' a bit late and I'm so sorry, I wanted to do something out of the ordinary :)
             </p>
             <button
               onClick={handleButtonClick}
