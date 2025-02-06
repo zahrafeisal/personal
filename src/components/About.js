@@ -29,7 +29,7 @@ function About() {
             <br />
             ways. You're my inspiration Karl, you push me to become a better person. God's given you another year round the
             <br />
-            sun and I know it'll be your best one yet. You'll get to see so many of your dreams become reality and all of
+            sun and I know it'll be your best one yet. You'll get to see so many of your dreams become reality and all of your
             <br />
             worries disappear. You stand out in the whole universe, you have the perfect smile, the perfect laugh, the
             <br />
@@ -41,7 +41,7 @@ function About() {
             <br />
             not forget you put me on to anime, you have the greatest mindset, your ambitious nature is to die for, you're the
             <br />
-            light in everyone's life, you are the most nature person I've ever met, you are top-level at basketball, you have
+            light in everyone's life, you are the most mature person I've ever met, you are top-level at basketball, you have
             <br />
             immense and intense aura, you have calming energy, you are so trusthworthy, you bring comfort, you give a sense of
             <br />
@@ -51,7 +51,7 @@ function About() {
             <br />
             lifetime of birthdays, each better than the previous. I really hope you have the most amazing day today, full of 
             <br />
-            laughter and love. Happy 19th birthday baby, I love you endlessly, always and forever❤️
+            laughter and love. Happy 19th birthday Karl, I love you endlessly, always and forever❤️
         </h2>
         <button
               onClick={handleButtonClick}
