@@ -1,11 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function NavBar() {
     return (
         <nav className="poppins-semibold">
             <ul>
                 <li>
-                    <a href="/personal/">Log out</a>
+                    <Link to="/" className="nav-link">Log out</Link>
                 </li>
             </ul>
         </nav>

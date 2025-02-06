@@ -31,14 +31,14 @@ nav {
   justify-content: flex-end;
 }
 
-nav a {
+nav .nav-link {
   text-decoration: none;
   margin: 0 4rem;
   font-size: 1.7rem;
   color: white;
 }
 
-nav a:hover {
+nav .nav-link:hover {
   color: lightskyblue;
 }
 
