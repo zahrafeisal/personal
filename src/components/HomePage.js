@@ -30,7 +30,7 @@ function HomePage() {
                 <br />
                 I wasn't so sure about it at first but I really hope you like it.
                 <br />
-                Ik it' a bit late and I'm so sorry, I wanted to do something out of the ordinary :)
+                Ik it's a bit late and I'm so sorry, I wanted to do something out of the ordinary :)
             </p>
             <button
               onClick={handleButtonClick}
