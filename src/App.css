@@ -1,36 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');  
+
 html, body {
   height: 100%;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
+  scroll-padding-top: 6rem;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
-  background: linear-gradient(to bottom, #4b4a4a, #929191);
+  background: linear-gradient(to bottom, black, #4b4a4a);
   background-color: #666;
 }
 
 .poppins-semibold {
   font-family: "Poppins", sans-serif;
-  font-weight: 400;
   font-style: normal;
+  font-weight: 600;
+}
+
+.full-body {
   text-align: center;
 }
 
 nav {
-  padding: .3rem;
+  padding: .4rem;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: flex-end;
 }
 
 nav a {
   text-decoration: none;
   margin: 0 4rem;
-  font-size: 1.3rem;
+  font-size: 1.7rem;
+  color: white;
 }
 
 nav a:hover {
-  color: rgb(138, 81, 81);
+  color: lightskyblue;
 }
 
 nav ul {
@@ -43,7 +52,6 @@ nav ul li {
 }
 
 .login-button {
-  color: black;
   margin-top: 50px;
   background-color: lightskyblue;
   transition-duration: 0.2s;
@@ -51,7 +59,7 @@ nav ul li {
 }
 
 .login-button:hover {
-  background-color: #0D1B28;
+  background-color: lightskyblue;
   color: white;
 }
 
@@ -88,6 +96,7 @@ transition: 0.2s;
 
 .login-div {
   margin-top: 200px;
+  color: #ccc;
 }
 
 .login-form {
@@ -112,8 +121,10 @@ transition: 0.2s;
   font-weight: 600;
 }
 
-.home-div {
-  margin-top: 200px;
+.home-content {
+  margin-top: 80px;
+  margin-bottom: 40px;
+  color: #ccc;
 }
 
 .home-div h1 {
@@ -125,11 +136,32 @@ transition: 0.2s;
   margin-top: 20px;
 }
 
+.home-div .avatar {
+  flex: .5 .5 40rem;
+}
+
+.home-div .avatar img {
+  width: 20%;
+  animation: float 4s linear infinite;
+  margin-right: 20px;
+}
+@keyframes float {
+  0%, 100% {
+      transform: translateY(0rem);
+  }
+  50% {
+      transform: translateY(2rem);
+  }
+}
+
+.about-div {
+  color: #6e6e6e;
+}
+
 .about-div h1{
   margin-bottom: 30px;
 }
 
 .about-div h2{
   font-size: 18px;
-  
 }

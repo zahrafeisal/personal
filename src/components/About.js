@@ -23,7 +23,7 @@ function About() {
             <br />
             flame, ny other half, my soulmate, my heart and my life. You light up every room you walk into and bring so much
             <br />
-            joy and peace to countless people's lives (mine excluded🙄). Being a stranger, to your friend and eventually your
+            joy and peace to countless people's lives (mine excluded🙄). From being a stranger, to your friend and eventually your
             <br />
             girlfriend has by far been my best experience in life, just being around you and watching you grow in so many
             <br />

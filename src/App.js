@@ -7,7 +7,7 @@ import About from './components/About';
 
 function App() {
   return (
-    <div className='poppins-semibold'>
+    <div className='poppins-semibold full-body'>
       <Router basename="/personal">
         <Routes>
           <Route path="/" element={<Login />} />

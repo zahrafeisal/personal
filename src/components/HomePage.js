@@ -13,8 +13,19 @@ function HomePage() {
         <>
         <NavBar />
         <div className="home-div">
+            <div className="avatar">
+                <img 
+                  src={`${process.env.PUBLIC_URL}/image.jpeg`}
+                  alt="Karl"
+                />
+                <img 
+                  src={`${process.env.PUBLIC_URL}/img1.jpeg`}
+                  alt="Karl"
+                />
+            </div>
+            <div className="home-content">
             <h2>Hi, Karl</h2>
-            <h1>Happy 19th Birthday!!!🥳</h1>
+            <h1>Happy Birthday!!!</h1>
             <p>This is somehow my version of a paragraph and I wasn't
                 <br />
                 so sure about it at first but I really hope you like it.
@@ -25,9 +36,15 @@ function HomePage() {
               onClick={handleButtonClick}
               type="button"
               className="login-button btn btn-outline-info"
+              style={{
+                color: 'black',
+                backgroundColor: 'white',
+                borderColor: 'lightgray'
+              }}
             >
-                <span>Take a look</span>
+                <span>Click here</span>
             </button>
+            </div>
         </div>
         </>
     );
